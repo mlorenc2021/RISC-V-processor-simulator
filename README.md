@@ -27,6 +27,9 @@ g++ -o rv32i_simulator main.cpp cpu_single_hart.cpp rv32i_hart.cpp rv32i_decode.
 
 ## Usage
 Run the simulator with the following command:
+```sh
+./rv32i_simulator [options] <infile>
+```
 
 ## Command-Line Options
 • -d : Show disassembly before program execution
